@@ -32,6 +32,13 @@ namespace NerdDinner2.Models
             {
                 yield return new RuleViolation("Phone Number Required", "ContactPhone");
             }
+            else
+            {
+                if (!PhoneValidator.IsValidNumber(ContactPhone, Country))
+                {
+                    yield return new RuleViolation("Phone Number does not match country", "ContactPhone");
+                }
+            }
             if (String.IsNullOrEmpty(Address))
             {
                 yield return new RuleViolation("Address Required", "Address");
@@ -39,11 +46,6 @@ namespace NerdDinner2.Models
             if (String.IsNullOrEmpty(Country))
             {
                 yield return new RuleViolation("Country Required", "Country");
-            }
-
-            if(!PhoneValidator.IsValidNumber(ContactPhone, Country))
-            {
-                yield return new RuleViolation("Phone Number does not match country", "ContactPhone");
             }
 
             yield break;

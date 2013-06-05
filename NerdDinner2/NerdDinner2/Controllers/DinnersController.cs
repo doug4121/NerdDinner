@@ -71,9 +71,7 @@ namespace NerdDinner2.Controllers
             {
                 ModelState.AddRuleViolations(dinner.GetRuleViolations());
 
-                ViewData["Countries"] = new SelectList(PhoneValidator.Countries, dinner.Country);
-
-                return View(dinner);
+                return View(new DinnerFormViewModel(dinner));
             }
         }
 
@@ -84,7 +82,7 @@ namespace NerdDinner2.Controllers
                                 {
                                     EventDate = DateTime.Now.AddDays(7)
                                 };
-            return View(dinner);
+            return View(new DinnerFormViewModel(dinner));
         }
 
         [AcceptVerbs(HttpVerbs.Post)]
@@ -108,7 +106,7 @@ namespace NerdDinner2.Controllers
                 }
             }
 
-            return View(dinner);
+            return View(new DinnerFormViewModel(dinner));
         }
 
         public ActionResult Delete(int id)
