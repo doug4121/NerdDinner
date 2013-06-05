@@ -9,6 +9,11 @@ namespace NerdDinner2.Models
     [Bind(Include="Title,Description,EventDate,Address,Country,ContactPhone,Latitude,Longitude")]
     public partial class Dinner
     {
+        public bool IsHostedBy(string userName)
+        {
+            return HostedBy.Equals(userName, StringComparison.InvariantCultureIgnoreCase);
+        }
+
         public bool IsValid
         {
             get { return (GetRuleViolations().Count() == 0); }    

@@ -48,40 +48,56 @@ namespace NerdDinner2.Controllers
         }
 
         // get /Dinners/Edit/id
+        [Authorize]
         public ActionResult Edit(int id)
         {
             Dinner dinner = dinnerRepository.GetDinner(id);
 
-            ViewData["Countries"] = new SelectList(PhoneValidator.Countries, dinner.Country);
+            //ViewData["Countries"] = new SelectList(PhoneValidator.Countries, dinner.Country);
 
             //return View(dinner);
 
-            return View(new DinnerFormViewModel(dinner));
+            if (!dinner.IsHostedBy(User.Identity.Name))
+            {
+                return View("InvalidOwner");
+            }
+            else
+            {
+                return View(new DinnerFormViewModel(dinner));    
+            }
         }
 
         // post
-        [AcceptVerbs(HttpVerbs.Post)]
+        [AcceptVerbs(HttpVerbs.Post), Authorize]
         public ActionResult Edit(int id, FormCollection formValues)
         {
             Dinner dinner = dinnerRepository.GetDinner(id);
 
-            try
+            if (!dinner.IsHostedBy(User.Identity.Name))
             {
-                UpdateModel(dinner);
-
-                dinnerRepository.Save();
-
-                return RedirectToAction("Details", new { id = dinner.DinnerID });
+                return View("InvalidOwner");
             }
-            catch
+            else
             {
-                ModelState.AddRuleViolations(dinner.GetRuleViolations());
+                try
+                {
+                    UpdateModel(dinner);
 
-                return View(new DinnerFormViewModel(dinner));
+                    dinnerRepository.Save();
+
+                    return RedirectToAction("Details", new {id = dinner.DinnerID});
+                }
+                catch
+                {
+                    ModelState.AddRuleViolations(dinner.GetRuleViolations());
+
+                    return View(new DinnerFormViewModel(dinner));
+                }
             }
         }
 
         // get /Dinners/Create
+        [Authorize]
         public ActionResult Create()
         {
             Dinner dinner = new Dinner()
@@ -91,14 +107,18 @@ namespace NerdDinner2.Controllers
             return View(new DinnerFormViewModel(dinner));
         }
 
-        [AcceptVerbs(HttpVerbs.Post)]
+        [AcceptVerbs(HttpVerbs.Post), Authorize]
         public ActionResult Create(Dinner dinner)
         {
             if(ModelState.IsValid)
             {
                 try
                 {
-                    dinner.HostedBy = "SomeUser";
+                    dinner.HostedBy = User.Identity.Name;
+
+                    RSVP rsvp = new RSVP();
+                    rsvp.AttendeeName = User.Identity.Name;
+                    dinner.RSVPs.Add(rsvp);
                     
                     dinnerRepository.Add(dinner);
 
@@ -115,35 +135,50 @@ namespace NerdDinner2.Controllers
             return View(new DinnerFormViewModel(dinner));
         }
 
+        [Authorize]
         public ActionResult Delete(int id)
         {
             Dinner dinner = dinnerRepository.GetDinner(id);
 
-            if (dinner == null)
+            if (!dinner.IsHostedBy(User.Identity.Name))
             {
-                return View("NotFound");
+                return View("InvalidOwner");
             }
             else
             {
-                return View(dinner);
+                if (dinner == null)
+                {
+                    return View("NotFound");
+                }
+                else
+                {
+                    return View(dinner);
+                }
             }
         }
 
-        [AcceptVerbs(HttpVerbs.Post)]
+        [AcceptVerbs(HttpVerbs.Post), Authorize]
         public ActionResult Delete(int id, string confirmButton)
         {
             Dinner dinner = dinnerRepository.GetDinner(id);
 
-            if (dinner == null)
+            if (!dinner.IsHostedBy(User.Identity.Name))
             {
-                return View("NotFound");
+                return View("InvalidOwner");
             }
             else
             {
-                dinnerRepository.Delete(dinner);
-                dinnerRepository.Save();
+                if (dinner == null)
+                {
+                    return View("NotFound");
+                }
+                else
+                {
+                    dinnerRepository.Delete(dinner);
+                    dinnerRepository.Save();
 
-                return View("Deleted");
+                    return View("Deleted");
+                }
             }
         }
     }
