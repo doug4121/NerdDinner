@@ -1,0 +1,10 @@
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\NerdDinner2.Tests.dll.config
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\NerdDinner2.Tests.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\NerdDinner2.Tests.pdb
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\NerdDinner2.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\EntityFramework.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\NerdDinner2.pdb
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\bin\Debug\EntityFramework.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\obj\Debug\NerdDinner2.Tests.csprojResolveAssemblyReference.cache
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\obj\Debug\NerdDinner2.Tests.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2.Tests\obj\Debug\NerdDinner2.Tests.pdb

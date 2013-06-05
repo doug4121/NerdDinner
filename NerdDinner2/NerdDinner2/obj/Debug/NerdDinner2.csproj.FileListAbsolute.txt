@@ -1,0 +1,42 @@
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\NerdDinner2.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\NerdDinner2.pdb
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\EntityFramework.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\Microsoft.Web.Infrastructure.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Helpers.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Mvc.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Providers.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Razor.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Deployment.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Razor.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\EntityFramework.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Helpers.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Mvc.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.Razor.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Deployment.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Razor.xml
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\obj\Debug\NerdDinner2.csprojResolveAssemblyReference.cache
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\obj\Debug\NerdDinner2.dll
+c:\users\douglasc\documents\visual studio 2012\Projects\NerdDinner2\NerdDinner2\obj\Debug\NerdDinner2.pdb
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\NerdDinner2.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\NerdDinner2.pdb
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\EntityFramework.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Helpers.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Mvc.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Providers.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Razor.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Razor.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\EntityFramework.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Helpers.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Mvc.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.Razor.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\bin\System.Web.WebPages.Razor.xml
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\obj\Debug\NerdDinner2.csprojResolveAssemblyReference.cache
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\obj\Debug\NerdDinner2.dll
+C:\Users\douglasc\NerdDinner\NerdDinner2\NerdDinner2\obj\Debug\NerdDinner2.pdb
