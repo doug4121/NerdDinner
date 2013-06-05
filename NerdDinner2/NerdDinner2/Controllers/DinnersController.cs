@@ -13,14 +13,20 @@ namespace NerdDinner2.Controllers
         //
         // GET: /Dinners/
 
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
             // inital test write
             //Response.Write("<h1>Coming Soon: Dinners</h1>");
 
-            var dinners = dinnerRepository.FindUpcomingDinners().ToList();
+            //var dinners = dinnerRepository.FindUpcomingDinners().ToList();
 
-            return View(dinners);
+            const int pageSize = 10;
+
+            var upcomingDinners = dinnerRepository.FindUpcomingDinners();
+
+            var paginatedDinners = new PaginatedList<Dinner>(upcomingDinners, page ?? 0, pageSize);
+
+            return View(paginatedDinners);
         }
 
         // get /Dinners/Details/id

@@ -113,6 +113,7 @@
       <DependentUpon>NerdDinner.dbml</DependentUpon>
     </Compile>
     <Compile Include="Models\PhoneValidator.cs" />
+    <Compile Include="PaginatedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

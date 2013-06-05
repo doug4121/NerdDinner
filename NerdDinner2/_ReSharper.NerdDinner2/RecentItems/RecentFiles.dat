@@ -1,13 +1,34 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Edit.aspx" caret="0" fromTop="0" />
     <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Deleted.aspx" caret="0" fromTop="0" />
     <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:NotFound.aspx" caret="0" fromTop="0" />
-    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Details.aspx" caret="0" fromTop="0" />
     <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Delete.aspx" caret="0" fromTop="0" />
-    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Create.aspx" caret="0" fromTop="0" />
-    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Index.aspx" caret="0" fromTop="0" />
-    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Controllers/f:DinnersController.cs" caret="2005" fromTop="18" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Models/f:Dinner.cs" caret="2142" fromTop="34" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/f:Global.asax.cs" caret="921" fromTop="17" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/f:PaginatedList.cs" caret="977" fromTop="33" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Controllers/f:DinnersController.cs" caret="798" fromTop="26" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/f:DinnerFormViewModel.cs" caret="112" fromTop="5" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Shared/f:Site.Master" caret="803" fromTop="20" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Details.aspx" caret="710" fromTop="21" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Controllers/f:HomeController.cs" caret="253" fromTop="12" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Home/f:Index.aspx" caret="0" fromTop="0" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Models/f:DinnerRepository.cs" caret="0" fromTop="0" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Create.aspx" caret="441" fromTop="13" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Models/f:PhoneValidator.cs" caret="1630" fromTop="15" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Edit.aspx" caret="407" fromTop="10" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:DinnerForm.ascx" caret="1649" fromTop="35" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Index.aspx" caret="853" fromTop="25" />
   </RecentFiles>
-  <RecentEdits />
+  <RecentEdits>
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Models/f:Dinner.cs" caret="1720" fromTop="30" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:DinnerForm.ascx" caret="1651" fromTop="36" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Edit.aspx" caret="440" fromTop="10" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Create.aspx" caret="421" fromTop="10" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Controllers/f:HomeController.cs" caret="253" fromTop="12" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Shared/f:Site.Master" caret="803" fromTop="20" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/f:Global.asax.cs" caret="921" fromTop="29" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/f:PaginatedList.cs" caret="957" fromTop="31" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Controllers/f:DinnersController.cs" caret="798" fromTop="26" />
+    <File id="4699F213-134A-4A06-99F6-024C4869CD1E/d:Views/d:Dinners/f:Index.aspx" caret="1084" fromTop="30" />
+  </RecentEdits>
 </RecentFiles>
