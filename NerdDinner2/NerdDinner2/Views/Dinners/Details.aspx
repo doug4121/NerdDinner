@@ -5,6 +5,10 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    
+<script src="/Scripts/MicrosoftAjax.js" type="text/javascript"></script>
+<script src="/Scripts/MicrosoftMvcAjax.js" type="text/javascript"></script>
+<script src="/Scripts/jquery-1.7.1.js" type="text/javascript"></script>
 
 <h2><% =Html.Encode(Model.Title) %></h2>
 
@@ -30,9 +34,8 @@
         (<% =Html.Encode(Model.ContactPhone) %>)
     </p>
     
-    <% if (Model.IsHostedBy(Context.User.Identity.Name)) { %>
-        <% = Html.ActionLink("Edit Dinner", "Edit", new { id=Model.DinnerID }) %> |
-        <% = Html.ActionLink("Delete Dinner", "Delete", new { id=Model.DinnerID}) %>
-    <% } %>
+    <% Html.RenderPartial("RSVPStatus"); %>
+
+    <% Html.RenderPartial("EditAndDeleteLinks"); %>
 
 </asp:Content>

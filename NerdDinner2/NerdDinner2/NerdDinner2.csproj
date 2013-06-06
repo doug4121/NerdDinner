@@ -100,6 +100,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\DinnersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RSVPController.cs" />
     <Compile Include="DinnerFormViewModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -196,9 +197,11 @@
     <Content Include="Views\Dinners\Details.aspx" />
     <Content Include="Views\Dinners\DinnerForm.ascx" />
     <Content Include="Views\Dinners\Edit.aspx" />
+    <Content Include="Views\Dinners\EditAndDeleteLinks.ascx" />
     <Content Include="Views\Dinners\Index.aspx" />
     <Content Include="Views\Dinners\NotFound.aspx" />
     <Content Include="Views\Dinners\InvalidOwner.aspx" />
+    <Content Include="Views\Dinners\RSVPStatus.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -238,6 +241,9 @@
     <None Include="Models\NerdDinner.dbml.layout">
       <DependentUpon>NerdDinner.dbml</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\RSVP\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
